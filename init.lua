@@ -21,8 +21,10 @@ spoon.SpoonInstall:andUse("MouseCircle", {
 if not (fs.attributes("/Applications/Amphetamine.app") or
     fs.attributes("/Applications/KeepingYouAwake.app") or
     fs.attributes("/Applications/Lungo.app")) then
-    spoon.SpoonInstall.andUse("Caffeine",
-                              {hotkeys = {toggle = {mod, "C"}}, start = true})
+    spoon.SpoonInstall:andUse("Caffeine", {
+        start = true,
+        hotkeys = {toggle = {mod, "C"}}
+    })
 end
 
 -- Get list of screens and refresh that list whenever screens are plugged or unplugged:

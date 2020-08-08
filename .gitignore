@@ -1,5 +1,5 @@
-hammerspoon/Spoons/*
+Spoons/*
 
 # Overrides
-!hammerspoon/Spoons/.gitkeep
-!hammerspoon/Spoons/SpoonInstall.spoon
+!Spoons/.gitkeep
+!Spoons/SpoonInstall.spoon
